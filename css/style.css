@@ -16,11 +16,6 @@ header{
     font-weight: 600;
 }
 
-.box-border{
-    border: 1.5px dashed black;
-    height: 100%;
-}
-
 .button-accedi{
     width: 18%;
     padding: 10px;
@@ -48,14 +43,14 @@ p{
     font-size: 20px;
 }
 
-.button-main{
+.button-jumbo{
     max-width: 40%;
     padding: 15px;
     border-radius: 30px;
     font-size: 20px;
 }
 
-.button-bot{
+.button-main{
     max-width: 40%;
     padding: 15px;
     border-radius: 30px;
@@ -63,6 +58,15 @@ p{
     margin-bottom: 100px;
     font-size: 20px;
 }
+
+.button-foot{
+    max-width: 40%;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+/* fine corpo principale */
 
 /* container */
 
@@ -176,6 +180,10 @@ a{
     background-color: white;
 }
 
+.bg-lightpurple{
+    background-color: rgb(114, 137, 218);
+}
+
 .bg-blue{
     background-color: rgb(30, 143, 255);
 }
@@ -188,48 +196,46 @@ a{
     background-color: rgb(35, 39, 42);
 }
 
-.bg-salmon{
-    background-color: rgb(240, 129, 127);
-    width: 35%;
-    height: 400px;
-}
-
-.bg-acquamarina{
-    background-color: rgb(32, 179, 170);
-    width: 16.25%;
-    height: 400px;
-}
-
-.bg-lightgreen{
-    background-color: rgb(114, 225, 184);
-}
-
 /* fine color-background */
 
 /* footer */
 
-footer{
-    padding-top: 20px;
+#top-footer{
+    border-bottom: 2px solid white;
+    padding-top: 5px 0px 20px 0px;
 }
 
-.content{
+.column1{
+    width: 25%;
+    padding: 50px 0px 0px 0px;
+}
+
+.column2{
+    width: 75%;
+    padding: 50px 0px 0px 0px;
+}
+
+.foot-content{
     width: 100%;
-    padding: 15px 0px;
     display: flex;
 }
 
-.bg-footer-pink{
-    background-color: rgb(255, 192, 202);
+.foot-border{
+    border-top: 1px solid rgb(114, 137, 218);
 }
 
-.left-button{
-    max-width: 10%;
-    padding: 5px;
-    text-align: center;
+/* fine footer */
+
+/* table */
+
+th{
+    color: rgb(114, 137, 218);
+    text-align: left;
 }
 
-.right-button{
-    max-width: 10%;
-    padding: 5px;
-    text-align: center;
+td{
+    color: white;
+    padding: 15px 0px 15px 0px;
 }
+
+/* fine table */
