@@ -27,6 +27,30 @@ header{
     border-radius: 30px;
 }
 
+/* corpo principale */
+
+.bg-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 45px;
+    padding: 40px 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.button-main{
+    max-width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
 /* container */
 
 .container{
@@ -36,14 +60,14 @@ header{
 }
 
 .container2{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     padding: 60px 0px;
 }
 
 .container3{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     padding: 30px 0px;
@@ -68,43 +92,13 @@ header{
 
 .big-col{
     width: 60%;
-    height: 400px;
 }
 
 .small-col{
     width: 40%;
-    height: 400px;
 }
 
 /* fine column */
-
-/* corpo principale */
-
-.bg-image{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-h2{
-    font-size: 50px;
-    padding: 40px;
-}
-
-p{
-    font-size: 20px;;
-}
-
-.button-main{
-    max-width: 40%;
-    padding: 15px;
-    border-radius: 30px;
-    font-size: 20px;
-}
-
-.row-reverse{
-    flex-direction: row-reverse;
-}
 
 /* utility */
 
@@ -135,6 +129,10 @@ a{
 
 .align-right{
     text-align: right;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 .space-around{
