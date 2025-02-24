@@ -7,12 +7,12 @@
 /* header */
 
 header{
-    background-color: rgb(156, 194, 208);
-    padding: 10px;
+    background-color: rgb(37, 94, 233);
+    padding: 20px;
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1800px;
     margin: 0 auto;
     display: flex;
 }
@@ -20,19 +20,21 @@ header{
 .left-col{
     width: 25%;
     text-align: left;
-    padding: 5px;
 }
 
 .central-col{
     width: 50%;
     text-align: center;
-    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
 }
 
 .right-col{
     width: 25%;
     text-align: right;
-    padding: 5px;
 }
 
 .box-border{
@@ -70,11 +72,29 @@ header{
     flex-direction: row-reverse;
 }
 
-/* background colors */
+/* utility */
 
 .width-full{
     width: 100%;
 }
+
+.color-white{
+    color: white;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+/* background color */
 
 .bg-gold{
     background-color: goldenrod;
