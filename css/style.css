@@ -40,6 +40,10 @@ h2{
     padding: 40px 0px;
 }
 
+h3{
+    font-size: 25px;
+}
+
 p{
     font-size: 20px;
 }
@@ -48,6 +52,15 @@ p{
     max-width: 40%;
     padding: 15px;
     border-radius: 30px;
+    font-size: 20px;
+}
+
+.button-bot{
+    max-width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     font-size: 20px;
 }
 
@@ -70,12 +83,6 @@ p{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    padding: 30px 0px;
-}
-
-.container4{
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 30px 0px;
 }
 
@@ -125,6 +132,10 @@ a{
     display: flex;
 }
 
+.display-block{
+    display: block;
+}
+
 .align-center{
     text-align: center;
 }
@@ -149,13 +160,17 @@ a{
     justify-content: space-between;
 }
 
+/* fine utility */
+
+/* color-background */
+
 .color-white{
     color: white;
 }
 
-/* fine utility */
-
-/* background color */
+.color-lightpurple{
+    color: rgb(114, 137, 218);
+}
 
 .bg-white{
     background-color: white;
@@ -165,17 +180,8 @@ a{
     background-color: rgb(30, 143, 255);
 }
 
-.bg-pink{
-    background-color: rgb(255, 192, 202);
-}
-
 .bg-grey{
     background-color: rgb(191, 191, 191);
-}
-
-.bg-green{
-    background-color: rgb(33, 139, 33);
-    height: 600px;
 }
 
 .bg-darkgrey{
@@ -198,7 +204,7 @@ a{
     background-color: rgb(114, 225, 184);
 }
 
-/* fine background colors */
+/* fine color-background */
 
 /* footer */
 
